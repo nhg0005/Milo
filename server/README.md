@@ -11,7 +11,7 @@ Backend for Milo built using [Express](https://expressjs.com/).
 ### Clone repository
 
 ```
-git clone git@github.com:nhg0005/milo.git
+git clone git@github.com:nhg0005/Milo.git
 cd milo/server/
 ```
 

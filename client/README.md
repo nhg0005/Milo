@@ -11,7 +11,7 @@ Frontend for Milo built using [React](https://reactjs.org/).
 ### Clone repository
 
 ```
-git clone git@github.com:nhg0005/milo.git
+git clone git@github.com:nhg0005/Milo.git
 cd milo/client/
 ```
 

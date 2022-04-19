@@ -1,0 +1,50 @@
+/* User card  */
+.user-card {
+  /* Display */
+  max-width: 300px;
+  width: 100%;
+}
+
+/* User card header */
+.uc-header {
+  /* Display */
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Card body */
+.uc-body {
+  /* Display */
+  display: flex;
+  flex-direction: column;
+}
+
+.uc-body button {
+  /* Display */
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  /* Text Styling */
+  text-align: left;
+}
+
+.uc-profile-button {
+  /* Text styling */
+  font-size: 1.2rem;
+}
+
+/* Profile picture */
+.uc-profile-picture {
+  border: 1px solid #eeeeee;
+  width: 55px;
+  height: 55px;
+  float: left;
+  /* margin: -90px 10px 0 0; */
+  position: relative;
+  z-index: 111;
+  object-fit: cover;
+
+  background-color: white;
+}

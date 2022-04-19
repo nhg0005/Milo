@@ -1,0 +1,67 @@
+/* Individual Friend Item */
+.friend-request-item {
+    /* Display */
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+.fr-friend {
+    /* Display */
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.fr-friend p {
+    /* Display */
+    margin-bottom: 0;
+}
+
+.fr-buttons {
+    /* Display */
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.fr-buttons button {
+    /* Display */
+    height: fit-content;
+}
+
+.accept-button {
+    /* Text Styling */
+    font-weight: 600 !important;
+
+    /* Coloring */
+    background-color: #5e9f17 !important;
+    
+    /* Border */
+    border-color: #5e9f17 !important;
+}
+
+.decline-button {
+    /* Text Styling */
+    font-weight: 600 !important;
+
+    /* Coloring */
+    background-color: #9f175e !important;
+
+    /* Border */
+    border-color: #9f175e !important;
+}
+
+.fr-profile-picture {
+    border: 1px solid #EEEEEE;
+    width: 50px;
+    height: 50px;
+    float: left;
+    /* margin: -90px 10px 0 0; */
+    position: relative;
+    z-index: 111;
+    object-fit: cover;
+    
+    background-color: white;
+}

@@ -1,0 +1,54 @@
+/********************** 
+*   THE WHOLE PAGE    *
+***********************/
+.friends-page {
+
+}
+
+/********************** 
+*        BODY         *
+***********************/
+.fp-body {
+    /* Display */
+    display: grid;
+    grid-template-columns: 0.30fr 0.70fr;
+    gap: 2rem;
+
+    /* Dimensions */
+    margin-top: 5rem !important;
+    margin-bottom: 2rem;
+
+}
+
+.fp-lists {
+    /* Display */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+
+}
+
+
+/********************** 
+*    MEDIA QUERIES    *
+***********************/
+
+/* Screens below 900px use these rules. */
+@media (max-width: 900px) {
+    .fp-body {
+        /* Display */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fp-user-card {
+        /* Display */
+        visibility: hidden !important;
+        display: none !important;
+    }
+
+}
+
+/* Screens below 540px use these rules. */
+@media (max-width: 540px) {}

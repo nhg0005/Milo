@@ -1,0 +1,70 @@
+/********************** 
+*   THE WHOLE PAGE    *
+***********************/
+.home-page {
+    /* Display */
+    display: flex;
+    flex-direction: column;
+
+}
+
+/********************** 
+*        BODY         *
+***********************/
+.home-page-body {
+    /* Display */
+    display: grid;
+    grid-template-columns: .75fr 1fr .75fr;
+
+    /* Dimensions */
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.hp-user-card {
+    /* Display */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 3.5rem;
+}
+
+.hp-friends-lists {
+    /* Display */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-right: 5rem;
+    align-items: flex-start !important;
+}
+
+
+/********************** 
+*    MEDIA QUERIES    *
+***********************/
+
+/* Screens below 900px use these rules. */
+@media (max-width: 1100px) {
+    .home-page-body {
+        /* Display */
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .hp-user-card {
+        /* Display */
+        visibility: hidden !important;
+        display: none !important;
+    }
+    
+    .hp-friends-lists {
+        /* Display */
+        visibility: hidden !important;
+        display: none !important;
+    }
+}
+
+/* Screens below 540px use these rules. */
+@media (max-width: 540px) {
+
+}

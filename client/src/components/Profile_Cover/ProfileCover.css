@@ -1,0 +1,70 @@
+.profile-cover {
+  /* Display */
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+
+  /* Dimensions */
+  max-width: 970px !important;
+  height: auto 13;
+
+  /* Border */
+  border: 1px solid #ddd;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* Cover image */
+.cover-image img {
+  /* Display */
+
+  object-fit: cover;
+
+  /* Dimensions */
+  width: 100%;
+  height: 200px;
+
+  /* Border */
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.profile-info {
+  /* Display */
+  padding: 10px;
+  background: white;
+
+  /* Text Styling */
+  font-size: 16px;
+}
+
+/* Profile picture */
+.profile-info img {
+  border: 1px solid #eeeeee;
+  width: 124px;
+  height: 124px;
+  float: left;
+  margin: -90px 10px 0 0;
+  position: relative;
+  z-index: 111;
+  object-fit: cover;
+
+  background-color: white;
+}
+
+/* User's name */
+.profile-info h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
+
+/* Some other text */
+.profile-info span {
+  font-size: 12px;
+  /* font-family: verdana; */
+  color: gray;
+}

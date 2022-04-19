@@ -1,0 +1,117 @@
+/********************** 
+*   THE WHOLE PAGE    *
+***********************/
+.profile-page {
+    /* Display */
+
+}
+
+/********************** 
+*        BODY         *
+***********************/
+.profile-body {
+    /* Display */
+
+    /* Dimensions */
+    margin-top: 5rem !important;
+    margin-bottom: 2rem;
+    
+}
+
+.profile-page-cover {
+    /* Dimensions */
+    
+}
+
+.under-cover {
+    /* Display */
+
+    /* Dimensions */
+    margin-top: 1rem !important;
+}
+
+.f-l-t {
+    /* Display */
+}
+
+.profile-posts {
+    /* Display */
+    display: flex;
+    flex-direction: column;
+    /* justify-self: start; */
+    padding-left: 1px !important;
+    padding-right: 1px !important;
+
+    /* Dimensions */
+    /* width: 700px; */
+
+}
+
+.cover-image-form {
+    visibility: hidden;
+    display: none;
+}
+
+.cover-button-mobile {
+    visibility: hidden !important;
+    display: none !important;
+}
+
+.pfp-button-mobile {
+    visibility: hidden !important;
+    display: none !important;
+}
+
+
+/********************** 
+*    MEDIA QUERIES    *
+***********************/
+
+/* Screens below 900px use these rules. */
+@media (max-width: 1200px) {
+    .profile-page-cover {
+        /* Display */
+        align-self: initial;
+
+        /* Dimensions */
+        width: auto;
+    }
+
+    .under-cover {
+        /* Display */
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .f-l-t {
+        /* Display */
+        visibility: hidden !important;
+        display: none !important;
+    }
+
+    .profile-posts {
+        /* Dimensions */
+        width: 100% !important;
+    }
+
+    .post-container {
+        padding: 0 !important;
+    }
+
+    .cover-button-mobile {
+        visibility: initial !important;
+        display: initial !important;
+        align-self: center;
+    }
+    
+    .pfp-button-mobile {
+        visibility: initial !important;
+        display: initial !important;
+        align-self: center;
+    }
+}
+
+/* Screens below 540px use these rules. */
+@media (max-width: 540px) {
+
+}

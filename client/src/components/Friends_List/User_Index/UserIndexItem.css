@@ -1,0 +1,33 @@
+/* Individual Friend Item */
+.user-index-item {
+    /* Display */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+
+}
+
+.user-index-friend {
+    /* Display */
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.user-index-friend p {
+    /* Display */
+    margin-bottom: 0;
+}
+
+.user-index-buttons {
+    /* Display */
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.user-index-buttons button {
+    /* Display */
+    height: fit-content;
+}

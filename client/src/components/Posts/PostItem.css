@@ -1,0 +1,124 @@
+/* Individual post container */
+.card-container {
+  /* Display */
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Header and footer background */
+.card-background {
+  /* Display */
+  background-color: white !important;
+  border: none !important;
+}
+
+/* Post header */
+.post-header {
+  /* Display */
+  display: flex;
+  gap: 1rem;
+}
+
+/* Text in the Post Header */
+.post-header p {
+  /* Display */
+  margin: 0;
+}
+
+/* User's name */
+.post-user-name {
+  /* Text Styling */
+  font-weight: 600;
+  color: rgb(23, 94, 159);
+}
+
+/* Timestamp */
+.post-timestamp {
+  /* Text Styling */
+  font-size: 14px;
+  color: gray;
+}
+
+/* Buttons */
+.footer-buttons {
+  /* Display */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+
+  /* Border */
+  border-top: 1px solid rgba(128, 128, 128, 0.19) !important;
+}
+
+.like-button {
+  font-size: 1.25rem;
+}
+
+.comments-button {
+  font-size: 1.25rem;
+}
+
+/* Under the social buttons */
+.interaction-footer {
+  /* Display */
+  display: flex;
+  flex-direction: column;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+
+  /* Background */
+  background-color: #ecfbf6 !important;
+}
+
+.post-like-count {
+  /* Display */
+  margin: 0.25rem !important;
+
+  /* Text Styling */
+  font-size: 0.85rem;
+}
+
+/* Image if present in post */
+.post-image {
+  /* Display */
+  width: 100%;
+  height: auto;
+}
+
+/* Comments Section */
+.commments-section {
+}
+
+.comment-button {
+  /* Font Styling */
+  font-weight: 600 !important;
+
+  /* Coloring */
+  background-color: #2bb3ed !important;
+  border-color: #2bb3ed !important;
+}
+
+.comments {
+  /* Display */
+  display: flex;
+  flex-direction: column;
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
+}
+
+/* Profile picture */
+.post-profile-picture {
+  border: 1px solid #eeeeee;
+  width: 70px;
+  height: 70px;
+  float: left;
+  position: relative;
+  z-index: 111;
+  object-fit: cover;
+  background-color: white;
+}

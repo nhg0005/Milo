@@ -1,0 +1,102 @@
+/* Component container */
+.header-container {
+  /* Display */
+  background-color: #2fa97e;
+}
+
+/* The title */
+.header-nav {
+  /* Text Styling */
+  color: white;
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+.logo-container {
+  /* Display */
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.fa-dog {
+  font-size: 24px;
+  color: white;
+}
+
+.account-button-container {
+  /* Display */
+  display: flex !important;
+  gap: 0.75rem !important;
+  align-items: center !important;
+}
+
+.users-name {
+  /* Text Styling */
+  color: white;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.header-profile-button {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.log-out-button-container {
+  display: flex;
+}
+
+.log-out-button {
+  background-color: rgba(128, 128, 128, 0.491) !important;
+  border-color: rgba(128, 128, 128, 0.491) !important;
+}
+
+/* Toggler */
+.navbar-toggler {
+  /* Display */
+  border: none !important;
+  color: white !important;
+}
+
+/* The icon within the toggler */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.75)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.nav-friend-button {
+  visibility: hidden;
+  display: none;
+}
+
+/********************** 
+*    MEDIA QUERIES    *
+***********************/
+
+/* Screens below 900px use these rules. */
+@media (max-width: 900px) {
+}
+
+@media (max-width: 768px) {
+  .log-out-button {
+    background-color: initial !important;
+    border: initial !important;
+
+    /* Text Styling */
+    font-weight: 500 !important;
+    font-size: 1.2rem !important;
+  }
+
+  .nav-friend-button {
+    visibility: initial;
+    display: initial;
+  }
+}
+
+/* Screens below 540px use these rules. */
+@media (max-width: 540px) {
+  .header-container {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}

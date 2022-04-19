@@ -1,0 +1,8 @@
+/* Post Container */
+.post-container {
+    /* Display */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}

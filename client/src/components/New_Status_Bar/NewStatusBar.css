@@ -1,0 +1,15 @@
+/* Status Bar container */
+.nsb-container {
+  /* Dimensions */
+  max-width: 40rem !important;
+}
+
+/* Post Button */
+.nsb-button {
+  /* Font Styling */
+  font-weight: 600 !important;
+
+  /* Coloring */
+  background-color: #2bb3ed !important;
+  border-color: #2bb3ed !important;
+}

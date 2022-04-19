@@ -1,0 +1,82 @@
+/* The whole page */
+.App {
+    /* Display */
+    display: flex;
+    flex-direction: column;
+}
+
+/********************** 
+*        BODY         *
+***********************/
+.initial-page-body {
+    /* Display */
+    display: flex;
+
+    /* Dimensions */
+    /* margin-top: 4.4rem; */
+    padding: 2rem;
+    height: 100vh;
+    gap: 3rem;
+
+    /* Alignment */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Auth Container */
+.auth-container {
+    min-width: 400px;
+}
+
+/* Auth button container */
+.auth-button-group {
+    /* Display */
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.auth-button-group button {
+    /* Text Styling */
+    font-weight: 600;
+}
+
+/* Guest button */
+.guest-button {
+    /* Color */
+    background-color: rgb(115, 113, 113) !important;
+    border-color: rgb(115, 113, 113) !important;
+}
+
+/********************** 
+*         MODAL       *
+***********************/
+/* Modal buttons */
+.modal-footer button {
+    /* Text Styling */
+    font-weight: 600;
+}
+
+
+/********************** 
+*    MEDIA QUERIES    *
+***********************/
+
+/* Screens below 900px use these rules. */
+@media (max-width: 900px) {
+    /* Contents under the header */
+    .initial-page-body {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+}
+
+/* Screens below 540px use these rules. */
+@media (max-width: 540px) {
+    /* Auth Container */
+    .auth-container {
+        min-width: 350px;
+    }
+
+}

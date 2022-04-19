@@ -4,9 +4,9 @@ A basic social network website for dog owners based off of Facebook created with
 
 [Demo Link](https://mi-l-o.web.app/)
 
-## [Client]()
+## [Client](https://github.com/nhg0005/Milo/tree/main/client)
 
-## [Server]()
+## [Server](https://github.com/nhg0005/Milo/tree/main/server)
 
 ## Technologies Used
 
